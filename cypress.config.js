@@ -7,8 +7,6 @@ module.exports = defineConfig({
     baseUrl:'https://practicetestautomation.com',
     "defaultCommandTimeout": 10000, // Set to a higher value if needed
     "responseTimeout": 30000,
-    testIsolation:false,
-    "experimentalOriginDependencies":true,
     failOnStatusCode:false,
     cacheAcrossSpecs:false,
     setupNodeEvents(on, config) {
